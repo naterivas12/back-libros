@@ -15,7 +15,7 @@ public class WebConfig implements WebFluxConfigurer {
                 .allowedOrigins("*")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
-                .allowCredentials(true)
+                .exposedHeaders("*")
                 .maxAge(3600);
     }
 }
