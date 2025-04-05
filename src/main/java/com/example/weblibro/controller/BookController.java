@@ -10,7 +10,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/api/books")
+@RequestMapping("/books")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class BookController {
 
